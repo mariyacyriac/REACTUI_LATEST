@@ -1,0 +1,69 @@
+.form-1 {
+    /* Size and position */
+    width: 340px;
+    margin: 60px auto 30px;
+    padding: 20px;
+    position: relative;
+
+    /* Styles */
+    background: #fffaf6;
+    border-radius: 4px;
+    color: #7e7975;
+    box-shadow:
+        0 2px 2px rgba(0,0,0,0.2),        
+        0 1px 5px rgba(0,0,0,0.2),        
+        0 0 0 12px rgba(255,255,255,0.4); 
+}
+
+.form-1 h2 .log-in {
+    display: inline-block;
+    text-align: center;
+}
+
+.form-1 h2 .log-in {
+    color: #6c6763;
+    padding-right: 2px;
+}
+
+.form-1 label {
+    display: block;
+    padding: 0 0 5px 2px;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 500;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    font-size: 14px;
+}
+
+.form-1 input {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 3px solid #ebe6e2;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+
+
+.form-1 label:hover ~ input {
+    border-color: #CCC;
+}
+
+.form-1 input :focus {
+    border-color: #BBB;
+    outline: none; 
+}
+
+.form-1 button {
+    border-color: rgb(189, 179, 179);
+    background: #eff5f4;
+}
+.Validation{
+    color: #ee0c0c;
+    text-align: left;
+    font-size: small;
+}

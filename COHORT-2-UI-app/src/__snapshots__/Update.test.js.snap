@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test for rendering labels for the editable fields   should have a label for Lien ID  1`] = `ShallowWrapper {}`;
+
+exports[`test for rendering labels for the editable fields   should have a label for Lien Type  1`] = `ShallowWrapper {}`;
+
+exports[`test for rendering labels for the editable fields   should have a label for loan Amount  1`] = `ShallowWrapper {}`;
+
+exports[`test for rendering labels for the editable fields   should have a label for loan Term  1`] = `ShallowWrapper {}`;
+
+exports[`test for rendering the update Compoent  should render the form 1`] = `
+<div>
+  <Header />
+  <div
+    className="col-12 col-md-6"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-header"
+      >
+        Loan Details Update Form
+      </div>
+      <div
+        className="card-body"
+      >
+        <form
+          autoComplete="off"
+          onSubmit={[Function]}
+        >
+          <div
+            className="form-group"
+          >
+            <label>
+              Borrower name
+            </label>
+            <input
+              className="form-control"
+              disabled={true}
+              name="borrowerName"
+              type="text"
+              value="abcd"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Adderss line 1
+            </label>
+            <input
+              className="form-control"
+              disabled={true}
+              name="addressLine1"
+              type="text"
+              value="street 122"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Adderss line 2
+            </label>
+            <input
+              className="form-control"
+              disabled={true}
+              name="addressLine2"
+              type="text"
+              value="house number 1"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              City
+            </label>
+            <input
+              className="form-control"
+              disabled={true}
+              name="city"
+              type="text"
+              value="bangalore"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Zipcode
+            </label>
+            <input
+              className="form-control"
+              disabled={true}
+              name="zipCode"
+              type="text"
+              value="90893"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Legal Documents
+            </label>
+            <input
+              className="form-control"
+              disabled={true}
+              name="docDetails"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Loan Number
+            </label>
+            <input
+              className="form-control"
+              disabled={true}
+              name="loanNumber"
+              type="text"
+              value="123"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Loan Amount
+            </label>
+            <input
+              className="form-control"
+              defaultValue={80000}
+              name="loanAmount"
+              onChange={[Function]}
+              placeholder="Enter Loan amount"
+              type="text"
+            />
+            <p
+              className="text-danger"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Loan Term
+            </label>
+            <input
+              className="form-control"
+              defaultValue={1.5}
+              name="loanTerm"
+              onChange={[Function]}
+              placeholder="Enter Loan term "
+              type="text"
+            />
+            <p
+              className="text-danger"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Lien Type
+            </label>
+            <input
+              className="form-control"
+              defaultValue="lien type A"
+              name="lienType"
+              onChange={[Function]}
+              placeholder="Enter Lien type"
+              type="text"
+            />
+            <p
+              className="text-danger"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label>
+              Lien ID
+            </label>
+            <input
+              className="form-control"
+              defaultValue={567}
+              name="lienId"
+              onChange={[Function]}
+              placeholder="Enter lien id "
+              type="text"
+            />
+            <p
+              className="text-danger"
+            />
+          </div>
+          <div
+            className="form-group text-center"
+          >
+            <button
+              className="btn btn-primary"
+              style={
+                Object {
+                  "margin": "5px",
+                }
+              }
+            >
+              Submit
+            </button>
+            <button
+              className="btn btn-danger"
+              npstyle={
+                Object {
+                  "margin": "5px",
+                }
+              }
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
